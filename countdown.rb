@@ -1,8 +1,8 @@
 def countdown
   count = 0
   while count < 10
-    puts "#{count} SECONDS!"
     sleep (5)
+    puts "#{count} SECONDS!"
     count += 1
     end
   puts "HAPPY NEW YEAR!"
