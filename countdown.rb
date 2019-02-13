@@ -3,7 +3,7 @@ def countdown (number_of_times)
   while count < number_of_times
     puts "#{number_of_times} SECOND(S)!"
     number_of_times -= 1
-    sleep (5)
+    sleep
     end
   return "HAPPY NEW YEAR!"
 end
