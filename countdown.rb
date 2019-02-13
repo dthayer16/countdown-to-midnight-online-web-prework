@@ -1,6 +1,6 @@
 def countdown
   count = 0
-  while count > 10
+  while count < 10
     puts "#{count} SECONDS!"
     sleep (5)
     count += 1
